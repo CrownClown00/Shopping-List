@@ -21,7 +21,7 @@ $('ul.list').on( "click", 'li',function () {
         //$('ul.list li').css({color:'red'});
        // alert('pieeeee');
         //$('ul.list li').addClass("listyle");
-        $(this).closest('ul.list li').addClass("listyle");
+        $(this).toggleClass("listyle");
      //$(this).closest('li').addClass('listyle');
 		//$(this).remove();
     $('listyle').remove();
