@@ -1,0 +1,24 @@
+#container{
+	text-align:center;
+	margin: 0 auto;
+	
+}
+
+.button{
+   
+   
+    
+}
+
+
+.listyle{
+    text-decoration: line-through;
+}
+
+li{
+    background-color: lightblue;
+    list-style: none;
+    border-radius: 30px;
+    margin-top:2em;
+    
+}
