@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    $('.button').click(function () {
+    $('#buttonpress').click(function () {
         $('.list').append($('<li>', {
             text: $('.mdl-textfield__input').val()
 
@@ -24,5 +24,6 @@ $('ul.list').on( "click", 'li',function () {
         $(this).closest('ul.list li').addClass("listyle");
      //$(this).closest('li').addClass('listyle');
 		//$(this).remove();
+    $('listyle').remove();
         });
      });
